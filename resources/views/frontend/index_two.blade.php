@@ -297,8 +297,7 @@
 							<div class="team-icon style-two">
 								<ul>
 									<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-									<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+								
 									<li><a href="#"><i class="fab fa-instagram"></i></a></li>
 								</ul>
 							</div>
@@ -319,8 +318,7 @@
 							<div class="team-icon style-two">
 								<ul>
 									<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-									<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+									
 									<li><a href="#"><i class="fab fa-instagram"></i></a></li>
 								</ul>
 							</div>
@@ -341,8 +339,7 @@
 							<div class="team-icon style-two">
 								<ul>
 									<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-									<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+						
 									<li><a href="#"><i class="fab fa-instagram"></i></a></li>
 								</ul>
 							</div>
@@ -363,8 +360,7 @@
 							<div class="team-icon style-two">
 								<ul>
 									<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-									<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+									
 									<li><a href="#"><i class="fab fa-instagram"></i></a></li>
 								</ul>
 							</div>
@@ -634,7 +630,7 @@
 				<div class="col-lg-6 col-md-12">
 					<div class="call-back-content text-center">
 						<div class="call-back-numbar">
-							<h3>+51 (0) 888 455 369</h3>
+							<h3>+91 97041 61945</h3>
 						</div>
 						<div class="call-back-discription">
 							<p>Perfectly simple & easy to distinguish free hour when power of choice is 
