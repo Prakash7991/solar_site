@@ -1,0 +1,17 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Do not rewrite requests that already point to public
+    RewriteRule ^public/ - [L]
+
+    # Forward all website requests to Laravel public folder
+    RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>
+
+# Disable directory listing
+Options -Indexes
+
+# Protect sensitive Laravel files
+<FilesMatch "^(\.env|artisan|composer\.(json|lock)|package(-lock)?\.json|phpunit\.xml)$">
+    Require all denied
+</FilesMatch>
