@@ -1,0 +1,104 @@
+name: Deploy Laravel to GoDaddy cPanel
+
+on:
+  push:
+    branches:
+      - main
+
+  workflow_dispatch:
+
+concurrency:
+  group: production-deployment
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    name: Build and deploy website
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+
+    steps:
+      - name: Download project from GitHub
+        uses: actions/checkout@v4
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: "8.2"
+          extensions: mbstring, pdo_mysql, bcmath, intl, fileinfo
+          coverage: none
+
+      - name: Install Laravel Composer packages
+        run: |
+          composer install \
+            --no-dev \
+            --prefer-dist \
+            --no-interaction \
+            --no-progress \
+            --optimize-autoloader
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - name: Install frontend packages
+        run: npm ci
+
+      - name: Build frontend files
+        run: npm run build
+
+      - name: Remove development-only files
+        run: |
+          rm -rf node_modules
+          rm -rf tests
+          rm -rf .git
+          rm -rf .github
+          rm -f .env
+          rm -f .env.example
+          rm -f phpunit.xml
+          rm -f README.md
+
+      - name: Install secure FTP client
+        run: |
+          sudo apt-get update
+          sudo apt-get install --yes lftp
+
+      - name: Upload website to cPanel
+        env:
+          FTP_HOST: ${{ secrets.FTP_HOST }}
+          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+          FTP_PORT: ${{ secrets.FTP_PORT }}
+          FTP_REMOTE_DIR: ${{ secrets.FTP_REMOTE_DIR }}
+        run: |
+          lftp <<LFTP_COMMANDS
+          set cmd:fail-exit yes
+          set net:max-retries 3
+          set net:timeout 30
+          set ftp:ssl-force yes
+          set ftp:ssl-protect-data yes
+          set ssl:verify-certificate yes
+
+          open -p "$FTP_PORT" "ftp://$FTP_HOST"
+          user "$FTP_USERNAME" "$FTP_PASSWORD"
+
+          mirror --reverse \
+            --verbose \
+            --parallel=4 \
+            --exclude-glob ".env" \
+            --exclude-glob "database/*.sqlite" \
+            --exclude-glob "public/storage" \
+            --exclude-glob "public/storage/**" \
+            --exclude-glob "storage/app/public/**" \
+            --exclude-glob "storage/framework/cache/**" \
+            --exclude-glob "storage/framework/sessions/**" \
+            --exclude-glob "storage/framework/views/**" \
+            --exclude-glob "storage/logs/**" \
+            ./ "$FTP_REMOTE_DIR"
+
+          bye
+          LFTP_COMMANDS
