@@ -39,7 +39,7 @@
 			<div class="row">
 				<div class="col-lg-8 col-md-12">
 					<div class="service-details-thumb">
-						<img src="assets/images/resource/service-details.png" alt="service-details">
+						<img src="{{ asset('frontend/assets/images/resource/service-details.png')}}" alt="service-details">
 					</div>
 					<div class="service-details-title">
 						<h4>This service overview</h4>
@@ -51,12 +51,12 @@
 					<div class="row">
 						<div class="col-lg-6 col-md-6">
 							<div class="service-details-thumb-two">
-								<img src="assets/images/resource/service-details2.png" alt="">
+								<img src="{{ asset('frontend/assets/images/resource/service-details2.png')}}" alt="">
 							</div>
 						</div>
 						<div class="col-lg-6 col-md-6">
 							<div class="service-details-thumb-two">
-								<img src="assets/images/resource/service-details3.png" alt="">
+								<img src="{{ asset('frontend/assets/images/resource/service-details3.png')}}" alt="">
 							</div>
 						</div>
 					</div>
@@ -143,10 +143,10 @@
 				<div class="col-lg-4 col-md-6">
 					<div class="service-box style-two">
 						<div class="service-thumb">
-							<img src="assets/images/resource/service1.png" alt="">
+							<img src="{{ asset('frontend/assets/images/resource/service1.png')}}" alt="">
 							<div class="service-content">
 								<div class="service-icon-thumb">
-									<img src="assets/images/resource/service-icon1.png" alt="">
+									<img src="{{ asset('frontend/assets/images/resource/service-icon1.png')}}" alt="">
 								</div>
 								<div class="service-text">
 									<h4><a href="service-details.php">Solar Panels Services</a></h4>
@@ -161,10 +161,10 @@
 				<div class="col-lg-4 col-md-6">
 					<div class="service-box style-two">
 						<div class="service-thumb">
-							<img src="assets/images/resource/service2.png" alt="">
+							<img src="{{ asset('frontend/assets/images/resource/service2.png')}}" alt="">
 							<div class="service-content">
 								<div class="service-icon-thumb">
-									<img src="assets/images/resource/service-icon2.png" alt="">
+									<img src="{{ asset('frontend/assets/images/resource/service-icon2.png')}}" alt="">
 								</div>
 								<div class="service-text">
 									<h4><a href="service-details.php">Roof Solar Panels</a></h4>
@@ -179,10 +179,10 @@
 				<div class="col-lg-4 col-md-6">
 					<div class="service-box style-two">
 						<div class="service-thumb">
-							<img src="assets/images/resource/service3.png" alt="">
+							<img src="{{ asset('frontend/assets/images/resource/service3.png')}}" alt="">
 							<div class="service-content">
 								<div class="service-icon-thumb">
-									<img src="assets/images/resource/service-icon3.png" alt="">
+									<img src="{{ asset('frontend/assets/images/resource/service-icon3.png')}}" alt="">
 								</div>
 								<div class="service-text">
 									<h4><a href="service-details.php">Commercial Roofing</a></h4>

@@ -11,19 +11,25 @@
       </li>
       <!-- End Dashboard Nav -->
 
-      <li class="nav-item">
-        <a class="nav-link " href="{{route('admin_supplier')}}">
-          <i class="bi bi-users"></i>
-          <span>Supplier</span>
-        </a>
-      </li>
+     
 
+
+      
+
+      
 
       
       <li class="nav-item">
         <a class="nav-link " href="{{route('admin_users')}}">
           <i class="bi bi-users"></i>
           <span>Booking</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link " href="{{route('admin_contact')}}">
+          <i class="bi bi-users"></i>
+          <span>Contact</span>
         </a>
       </li>
 

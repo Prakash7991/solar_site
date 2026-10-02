@@ -3,6 +3,8 @@
 namespace App\Http\Controllers\Frontend;
 
 use App\Http\Controllers\Controller;
+use App\Models\Appointment;
+use App\Models\Contact;
 use Illuminate\Http\Request;
 
 class IndexController extends Controller
@@ -11,6 +13,21 @@ class IndexController extends Controller
     // Supplier
     public function Index(){
         return view('frontend.index');
+    }
+
+    public function Insert(Request $request){
+        $validated = $request->validate([
+            'name' => 'required|string|max:255',
+            'email' => 'required|email|max:255',
+            'mobile_number' => 'required|string|max:30',
+            'current_bill' => 'required|numeric|min:0',
+        ]);
+
+        Appointment::create($validated);
+
+        return response()->json([
+            'message' => 'Successfully Appointment Booked',
+        ], 201);
     }
 
     public function Indextwo(){
@@ -58,6 +75,27 @@ class IndexController extends Controller
 
     public function Contact(){
         return view('frontend.contact');
+    }
+
+    public function ContactInsert(Request $request){
+        $validated = $request->validate([
+            'name' => 'required|string|max:255',
+            'email' => 'required|email|max:255',
+            'phone' => 'required|string|max:30',
+            'message' => 'required|string|max:5000',
+        ], [
+            'name.required' => 'This field is required.',
+            'email.required' => 'This field is required.',
+            'email.email' => 'Please enter a valid email address.',
+            'phone.required' => 'This field is required.',
+            'message.required' => 'This field is required.',
+        ]);
+
+        Contact::create($validated);
+
+        return response()->json([
+            'message' => 'Successfully Contact Enquiry Submitted',
+        ], 201);
     }
 
 

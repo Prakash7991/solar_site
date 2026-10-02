@@ -68,7 +68,7 @@ Route::group(['prefix' => 'admin'], function () {
     //
     //
     //admin_supplier_insert
-    Route::get('supplier',[AdminSupplier::class,'Users'])->name('admin_supplier');
+    Route::get('contact',[AdminSupplier::class,'Users'])->name('admin_contact');
     Route::post('spplier',[AdminSupplier::class,'Store'])->name('admin_supplier_insert');
     Route::get('supplier_edit/{id}',[AdminSupplier::class,'Edit'])->name('admin_supplier_edit');
     Route::post('supplier_update',[AdminSupplier::class,'Update'])->name('admin_supplier_update');
@@ -77,8 +77,9 @@ Route::group(['prefix' => 'admin'], function () {
 
 //User Frontend
 Route::group(['prefix' => '/'], function () {
-    Route::get('/',[FrontIndex::class,'Index'])->name('front_home');
-    Route::get('/home',[FrontIndex::class,'Indextwo'])->name('front_home_two');
+
+    Route::post('/appointment',[FrontIndex::class,'Insert'])->name('front_appointment_insert');
+    Route::get('/',[FrontIndex::class,'Indextwo'])->name('front_home_two');
     Route::get('/about',[FrontIndex::class,'About'])->name('front_about');
     Route::get('/service',[FrontIndex::class,'Service'])->name('front_service');
     Route::get('/service_details',[FrontIndex::class,'Service_Details'])->name('front_service_details');
@@ -91,6 +92,7 @@ Route::group(['prefix' => '/'], function () {
     Route::get('/faq',[FrontIndex::class,'Faq'])->name('front_faq');
     Route::get('/error',[FrontIndex::class,'Error'])->name('front_error');
     Route::get('/contact',[FrontIndex::class,'Contact'])->name('front_contact');
+    Route::post('/contact',[FrontIndex::class,'ContactInsert'])->name('front_contact_insert');
 })
 
 

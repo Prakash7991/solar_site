@@ -3,6 +3,17 @@
 
 	<script src="{{ asset('frontend/assets/js/popper.min.js')}}"></script>
 
+	<script>
+		(function () {
+			var revealPage = function () {
+				document.body.classList.add('loaded');
+			};
+
+			window.addEventListener('load', revealPage);
+			window.setTimeout(revealPage, 3000);
+		})();
+	</script>
+
 	<!-- bootstrap js -->
 	<script src="{{ asset('frontend/assets/js/bootstrap.min.js')}}"></script>
 

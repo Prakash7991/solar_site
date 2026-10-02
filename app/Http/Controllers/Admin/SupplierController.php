@@ -5,13 +5,14 @@ use Illuminate\Support\Facades\Hash;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Supplier;
+use App\Models\Contact;
 
 class SupplierController extends Controller
 {
     // FEtch
     public function Users(){
-        $supplier= Supplier::all();
-        return view('admin.supplier.supplier',compact('supplier'));
+        $contact= Contact::all();
+        return view('admin.supplier.supplier',compact('contact'));
     }
 
     // Store
@@ -68,8 +69,8 @@ class SupplierController extends Controller
     //  Delete
 
     public function Delete($id){
-        $deleted = Supplier::destroy($id);
-        return redirect()->route('admin_supplier')->with('success', 'Supplier Deleted successfully');
+        $deleted = Contact::destroy($id);
+        return redirect()->route('admin_supplier')->with('success', 'Contact Deleted successfully');
     }
 }
 

@@ -6,7 +6,7 @@
 	 <footer class="footer-section">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-3 col-md-6">
+				<div class="col-lg-4 col-md-6">
 					<div class="footer-wiget wow animate__zoomIn">
 						<div class="footer-wiget-log">
 							<a href="index.php"><img src="{{ asset('frontend/assets/images/resource/footer-logo.png')}}" alt=""></a>
@@ -24,7 +24,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-6">
+				<div class="col-lg-4 col-md-6">
 					<div class="footer-wiget wow animate__slideInDown">
 						<div class="footer-wiget-title">
 							<h4>Industry Sectors</h4>
@@ -40,7 +40,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-6">
+				<div class="col-lg-4 col-md-6">
 					<div class="footer-wiget-quick-contanct wow animate__slideInUp">
 						<div class="footer-wiget-title">
 							<h4>Get In Touch</h4>
@@ -49,25 +49,21 @@
 							<ul>
 								<li>Valentin, Street Road 24, New York, 
 									USA - 67452</li>
-								<li>(+02) 574 - 328 - 30</li>
-								<li><a href="#">example@gmail.com</a></li>
+								<li>+91 97041 61945</li>
+								<li><a href="#">info@ssres.in</a></li>
 							</ul>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3">
-					<div class="footer-thumb wow animate__slideInDown">
-						<img src="{{ asset('frontend/assets/images/resource/footer-thumb.png')}}" alt="">
-					</div>
-				</div>
+			
 			</div>
 			<div class="row footer-line">
-				<div class="col-lg-3 col-md-6">
+				<div class="col-lg-8 col-md-6">
 					<div class="copyright-text wow animate__slideInUp">
-						<p>© 2023-25 | Alrights reserved by <a href="#">TechTime</a></p>
+						<p>© 2026 | Alrights reserved by <a href="#">Sky Solar Renewable Energy Solutions PVT LTD</a></p>
 					</div>
 				</div>
-				<div class="col-lg-2"></div>
+			
 				<div class="col-lg-4 col-md-6">
 					<div class="footer-condition wow animate__slideInDown">
 						<ul>
@@ -77,7 +73,7 @@
 						</ul>
 					</div>
 				</div>
-				<div class="col-lg-3"></div>
+				
 			</div>
 		</div>
 	</footer>

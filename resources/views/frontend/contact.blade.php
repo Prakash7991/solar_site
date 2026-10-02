@@ -64,7 +64,7 @@
 						</div>
 						<div class="contact-adress">
 							<h5>Call Us Today</h5>
-							<span>(+001) 123-456-7890</span>
+							<span>+91 97041 61945</span>
 						</div>
 					</div>
 					<div class="contact-box-item">
@@ -73,52 +73,47 @@
 						</div>
 						<div class="contact-adress">
 							<h5>Email Us</h5>
-							<span>example@gmail.com</span>
+							<span>info@ssres.in</span>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-12">
 					<div class="choose-contact-box contact-inner">
-						<form action="https://formspree.io/f/myyleorq" method="POST" id="it-form">
+						<form action="{{ route('front_contact_insert') }}" method="POST" id="contact-form" novalidate>
+							@csrf
 							<div class="row">
 								<div class="col-lg-6 col-md-6">
 									<div class="form-box contact-inner">
 										<input type="text" name="name" placeholder="Full Name*">
 										<i class="bi bi-person"></i>
+										<small class="contact-field-error" data-error-for="name"></small>
 									</div>
 								</div>
 								<div class="col-lg-6 col-md-6">
 									<div class="form-box contact-inner">
-										<input type="text" name="email" placeholder="Email Address*">
+										<input type="email" name="email" placeholder="Email Address*">
 										<i class="bi bi-envelope"></i>
+										<small class="contact-field-error" data-error-for="email"></small>
 									</div>
 								</div>
 								<div class="col-lg-12">
 									<div class="form-box contact-inner">
 										<input type="text" name="phone" placeholder="Phone Number*">
 										<i class="bi bi-phone-flip"></i>
+										<small class="contact-field-error" data-error-for="phone"></small>
 									</div>
 								</div>
-								<div class="col-lg-12">
-									<div class="form-box">
-										<input type="text" name="subject" placeholder="Select Service *">
-										<i class="bi bi-pencil-square"></i>
-									</div>
-								</div>
-								<div class="col-lg-12">
-									<div class="form-box contact-inner">
-										<input type="text" name="compnay" placeholder="Your Company Name*">
-									</div>
-								</div>
+								
 								<div class="col-lg-12 col-md-12">
 									<div class="form-box contact-inner">
-										<textarea name="massage" id="massage" cols="30" rows="10" placeholder="Write your question here*"></textarea>
+										<textarea name="message" id="message" cols="30" rows="10" placeholder="Write your question here*"></textarea>
 										<i class="bi bi-chat-left-text-fill"></i>
+										<small class="contact-field-error" data-error-for="message"></small>
 									</div>
 								</div>
 								<div class="col-lg-12 col-md-12">
 									<div class="form-box-button contact-inner">
-										<button type="Submit">Send Messages</button>
+										<button type="submit" id="contact-submit">Send Messages</button>
 									</div>
 								</div>
 							</div>
@@ -148,4 +143,107 @@
 	<!--==================================================-->
 	<!-- End Solar Panel  Map  Section -->
 	<!--==================================================-->
+
+	<style>
+		#contact-form .contact-field-error{display:block;color:#dc3545;font-size:13px;line-height:1.4;margin-top:6px;min-height:18px}
+		#contact-form .contact-field-invalid{border-color:#dc3545!important;box-shadow:0 0 0 1px rgba(220,53,69,.15)}
+	</style>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+	<script>
+		document.addEventListener('DOMContentLoaded', function () {
+			const form = document.getElementById('contact-form');
+			const submitButton = document.getElementById('contact-submit');
+			const fields = ['name', 'email', 'phone', 'message'];
+
+			const clearError = function (fieldName) {
+				const field = form.elements[fieldName];
+				const errorElement = form.querySelector('[data-error-for="' + fieldName + '"]');
+				field.classList.remove('contact-field-invalid');
+				errorElement.textContent = '';
+			};
+
+			const showError = function (fieldName, message) {
+				const field = form.elements[fieldName];
+				const errorElement = form.querySelector('[data-error-for="' + fieldName + '"]');
+				field.classList.add('contact-field-invalid');
+				errorElement.textContent = message;
+			};
+
+			const validateForm = function () {
+				let valid = true;
+				fields.forEach(clearError);
+
+				fields.forEach(function (fieldName) {
+					if (!form.elements[fieldName].value.trim()) {
+						showError(fieldName, 'This field is required.');
+						valid = false;
+					}
+				});
+
+				const email = form.elements.email.value.trim();
+				if (email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+					showError('email', 'Please enter a valid email address.');
+					valid = false;
+				}
+
+				return valid;
+			};
+
+			fields.forEach(function (fieldName) {
+				form.elements[fieldName].addEventListener('input', function () {
+					clearError(fieldName);
+				});
+			});
+
+			form.addEventListener('submit', async function (event) {
+				event.preventDefault();
+
+				if (!validateForm()) return;
+
+				const originalButtonText = submitButton.textContent;
+				submitButton.disabled = true;
+				submitButton.textContent = 'Sending...';
+
+				try {
+					const response = await fetch(form.action, {
+						method: 'POST',
+						body: new FormData(form),
+						headers: {
+							'Accept': 'application/json',
+							'X-Requested-With': 'XMLHttpRequest'
+						}
+					});
+
+					const data = await response.json();
+
+					if (!response.ok) {
+						if (data.errors) {
+							Object.entries(data.errors).forEach(function ([fieldName, messages]) {
+								if (fields.includes(fieldName)) showError(fieldName, messages[0]);
+							});
+						}
+						throw new Error(data.message || 'Please check the entered details.');
+					}
+
+					form.reset();
+					fields.forEach(clearError);
+					await Swal.fire({
+						icon: 'success',
+						title: 'Success!',
+						text: data.message,
+						confirmButtonText: 'OK'
+					});
+				} catch (error) {
+					Swal.fire({
+						icon: 'error',
+						title: 'Unable to submit enquiry',
+						text: error.message
+					});
+				} finally {
+					submitButton.disabled = false;
+					submitButton.textContent = originalButtonText;
+				}
+			});
+		});
+	</script>
 @endsection

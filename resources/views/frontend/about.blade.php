@@ -37,13 +37,13 @@
 	<div class="about-section style-three">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-6 col-md-12">
+				<div class="col-lg-12 col-md-12">
 				<div class="about-thumb">
-						<img src="{{ asset('frontend/assets/images/about/about-thumb.jpg')}}" alt="">
+						<!-- <img src="{{ asset('frontend/assets/images/about/about-thumb.jpg')}}" alt=""> -->
 						<div class="about-counter">
 							<div class="about-counter-text">
 								<div class="about-numbar">
-									<h4 class="counter">29</h4>
+									<h4 class="counter">10</h4>
 									<span>+</span>
 								</div>
 								<div class="about-text">
@@ -51,16 +51,16 @@
 								</div>
 							</div>
 						</div>
-						<div class="about-counter-two d-flex align-items-center ">
+						<!-- <div class="about-counter-two d-flex align-items-center ">
 							<div class="about-counter-img">
 								<img src="{{ asset('frontend/assets/images/about/about-shape.png')}}" alt="">
 							</div>
 							<div class="about-number-two">
-								<h4 class="counter">2900</h4>
+								<h4 class="counter">10</h4>
 								<span>+</span>
 								<h5>Satisfied Clients</h5>
 							</div>
-						</div>
+						</div> -->
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-12">
@@ -274,7 +274,7 @@
 	<!--==================================================-->
 	<div class="contact-us-section">
 		<div class="container">
-			<div class="row contact-us align-items-center">
+			<div class="row contact-us align-items-center mb-20">
 				<div class="col-lg-2"></div>
 				<div class="col-lg-7 col-md-6">
 					<div class="section-title">
@@ -288,7 +288,7 @@
 				</div>
 				<div class="col-lg-3 col-md-6">
 					<div class="solar-btn contact-us">
-						<a href="#">Contact Now <i class="bi bi-arrow-right"></i></a>
+						<a href="{{route('front_contact')}}">Contact Now <i class="bi bi-arrow-right"></i></a>
 					</div>
 				</div>
 			</div>
@@ -299,158 +299,11 @@
 	<!--==================================================-->
 
 	
-	<!--==================================================-->
-	<!-- Start Solar Panel  Team  Section -->
-	<!--==================================================-->
-	<div class="team-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="section-title text-center">
-						<div class="section-sub-title">
-							<h4>Our Team Members</h4>
-						</div>
-						<div class="section-main-title ">
-							<h2>Meet Experience Team</h2>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-3 col-md-6">
-					<div class="team-items-box">
-						<div class="team-thumb">
-							<img src="{{ asset('frontend/assets/images/team/team1.png')}}" alt="">
-							<div class="team-icon">
-								<ul>
-									<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-									<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
-									<li><a href="#"><i class="fab fa-instagram"></i></a></li>
-								</ul>
-							</div>
-							<div class="team-main-icon">
-								<a href="#"><i class="bi bi-plus"></i></a>
-							</div>
-							<div class="team-content">
-								<h4><a href="team-details.php">Roten Barsaw</a></h4>
-								<span>Chief Engineer</span>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="team-items-box">
-						<div class="team-thumb">
-							<img src="{{ asset('frontend/assets/images/team/team2.png')}}" alt="">
-							<div class="team-icon">
-								<ul>
-									<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-									<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
-									<li><a href="#"><i class="fab fa-instagram"></i></a></li>
-								</ul>
-							</div>
-							<div class="team-main-icon">
-								<a href="#"><i class="bi bi-plus"></i></a>
-							</div>
-							<div class="team-content">
-								<h4><a href="team-details.php">David Miller</a></h4>
-								<span>Chief Engineer</span>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="team-items-box">
-						<div class="team-thumb">
-							<img src="{{ asset('frontend/assets/images/team/team3.png')}}" alt="">
-							<div class="team-icon">
-								<ul>
-									<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-									<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
-									<li><a href="#"><i class="fab fa-instagram"></i></a></li>
-								</ul>
-							</div>
-							<div class="team-main-icon">
-								<a href="#"><i class="bi bi-plus"></i></a>
-							</div>
-							<div class="team-content">
-								<h4><a href="team-details.php">Steven Smith</a></h4>
-								<span>Chief Engineer</span>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="team-items-box">
-						<div class="team-thumb">
-							<img src="{{ asset('frontend/assets/images/team/team4.png')}}" alt="">
-							<div class="team-icon">
-								<ul>
-									<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-									<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
-									<li><a href="#"><i class="fab fa-instagram"></i></a></li>
-								</ul>
-							</div>
-							<div class="team-main-icon">
-								<a href="#"><i class="bi bi-plus"></i></a>
-							</div>
-							<div class="team-content">
-								<h4><a href="team-details.php">Jasson Roy</a></h4>
-								<span>Chief Engineer</span>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!--==================================================-->
-	<!-- Start Solar Panel  Team  Section -->
-	<!--==================================================-->
 
 
 
 
 
 
-	<!--==================================================-->
-	<!-- Start Solar Panel  Subscribe  Section -->
-	<!--==================================================--> 
 
-	<div class="subscribe-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6 col-md-6">
-					<div class="section-title">
-						<div class="section-main-title Subscribe">
-							<h2>Subscribe For The </h2>
-							<h2>Exclusive</h2>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 col-md-6">
-					<form action="https://formspree.io/f/myyleorq" method="POST" id="it-form">
-						<div class="form-box Subscribe wow animate__slideInRight">
-							<input type="text" name="email" placeholder="Your Email Address...">
-							<button type="submit" class="icons">
-								<i class="bi bi-send"></i>
-							</button>
-						</div>
-						<div class="checkbox-box">
-							<input type="checkbox" id="reviewcheck" name="reviewcheck">
-							<label for="reviewcheck"> I agree to the <a href="#">Privacy Policy</a></label>
-						</div>
-					</form>
-					<div id="status"></div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!--==================================================-->
-	<!-- End Solar Panel  Subscribe  Section -->
-	<!--==================================================--> 
 @endsection

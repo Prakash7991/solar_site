@@ -79,7 +79,7 @@ Tags: alternative energy, company, eco, eco-friendly, ecology, environment, natu
 
 
 .solar-top-menu ul li a i {
-    color: #022b79;
+    color: #e8ebef;
     font-size: 15px;
     margin-right: 7px;
 }
@@ -853,7 +853,7 @@ a.handbag:before {
     content: "";
     height: 85px;
     width: 85px;
-    border: 2px dotted #ffaa19;
+    border: 2px dotted #431dd8;
     left: -10px;
     right: 0;
     margin: auto;
@@ -1173,9 +1173,11 @@ a.handbag:before {
     text-decoration: none!important;
 }
 
+
+
 .service-text h4 {
     line-height: 24px;
-    color: #e2e2e2;
+    color: #2b19ca;
     font-weight: 500;
 }
 
@@ -1666,7 +1668,7 @@ a.active {
     outline: 0;
     border-radius: 3px;
     color: #3e3e3f;
-    margin-bottom: 23px;
+    margin-bottom: 3px;
 }
 
 .form_box input::placeholder {
@@ -1695,7 +1697,7 @@ a.active {
     color: #3e3e3f;
     border: 0;
     outline: 0;
-    margin-bottom: 23px;
+    margin-bottom: 0px;
 }
 
 .form-box textarea::placeholder {
@@ -2413,7 +2415,7 @@ span.fill {
 
 .footer-section {
     background: #769cd3 !important;
-    padding: 120px 0 27px;
+    padding: 20px 0 27px;
 }
 
 .footer-wiget-text p {
@@ -2519,8 +2521,8 @@ span.fill {
 
 .row.footer-line {
     border-top: 1px solid rgba(111,111,111,0.271);
-    padding: 45px 0 0;
-    margin: 83px 0 0;
+    padding: 20px 0 0;
+    margin: 20px 0 0;
 }
 
 .copyright-text p {
@@ -3240,6 +3242,7 @@ blockquote {
 
 .service-box.style-two {
     margin-bottom: 40px;
+    background: #5984d3 !important;
 }
 
 
@@ -4159,7 +4162,7 @@ span.flaticon-multiply i {
     color: #fff;
     top: 3px;
     z-index: 1;
-    background: #FF3C00;
+    background: #022b79 !important;
 }
 
 .top-wrap .go-top-button i {
@@ -4685,7 +4688,7 @@ span.flaticon-multiply i {
     top: 0;
     width: 50%;
     height: 100%;
-    background: #111;
+    background: #0c2ad7;
     z-index: 2;
 }
 

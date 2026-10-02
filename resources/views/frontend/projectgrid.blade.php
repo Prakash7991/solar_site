@@ -11,12 +11,12 @@
 				<div class="col-lg-12 col-md-12">
 					<div class="breatcome-content">
 						<div class="breatcome-title">
-							<h1>Projects Gird</h1>
+							<h1>Blog </h1>
 						</div>
 						<div class="bratcome-text">
 							<ul>
 								<li><a href="index.php">Home</a></li>
-								<li> Projects Gird</li>
+								<li> Blogs </li>
 							</ul>
 						</div>
 					</div>
@@ -28,14 +28,16 @@
 	<!--==================================================-->
 	<!--End Solar Panel  slider Section  -->
 	<!--==================================================-->
-
-
-
+	        <div>
+				<br><br>
+				<center><h1>No Blog To Display</h1></center>
+				<br><br>
+            </div>
 
 	<!--==================================================-->
 	<!-- Start Solar Panel  Project Grid Section -->
 	<!--==================================================-->
-	<div class="project-grid-section">
+	<!-- <div class="project-grid-section">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
@@ -121,7 +123,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 	<!--==================================================-->
 	<!-- End Solar Panel  Project Grid  Section -->
 	<!--==================================================-->

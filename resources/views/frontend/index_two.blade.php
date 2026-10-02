@@ -5,7 +5,6 @@
 	<!--==================================================-->
 	<!-- Start Solar Panel  slider Section -->
 	<!--==================================================-->
-
 	<div class="slider-section style-two d-flex">
 		<div class="container">
 			<div class="row align-items-center mt-50">
@@ -18,35 +17,36 @@
 						<div class="choose-contact-title">
 							<h4>Make an Appointment</h4>
 						</div>
-						<form action="https://formspree.io/f/myyleorq" method="POST" id="it-form">
+						<form action="{{ route('front_appointment_insert') }}" method="POST" id="appointment-form">
+							@csrf
 							<div class="row">
 								<div class="col-lg-6">
 									<div class="form-box">
-										<input type="text" name="name" class="border border-black border-[3px]" placeholder="Full Name *">
+										<input type="text" name="name" class="border border-black border-[3px]" placeholder="Full Name *" required>
 										<i class="bi bi-person"></i>
 									</div>
 								</div>
 								<div class="col-lg-6">
 									<div class="form-box">
-										<input type="text" name="email" placeholder="Email Here *">
+										<input type="email" name="email" placeholder="Email Here *" required>
 										<i class="bi bi-envelope"></i>
 									</div>
 								</div>
 								<div class="col-lg-6">
 									<div class="form-box">
-										<input type="text" name="mobile" placeholder="Mobile Number *">
+										<input type="tel" name="mobile_number" placeholder="Mobile Number *" required>
 										<i class="bi bi-pencil-square"></i>
 									</div>
 								</div>
 								<div class="col-lg-6">
 									<div class="form-box">
-										<input type="text" name="currentbill" placeholder="Monthly Current Bill *">
+										<input type="number" name="current_bill" placeholder="Monthly Current Bill *" min="0" step="0.01" required>
 										<i class="bi bi-pencil-square"></i>
 									</div>
 								</div>
 								<div class="col-lg-12 col-md-12">
 									<div class="form-box-button">
-										<button type="Submit">Appontment Now <i class="bi bi-arrow-right"></i></button>
+										<button type="submit" id="appointment-submit">Appointment Now <i class="bi bi-arrow-right"></i></button>
 									</div>
 								</div>
 							</div>
@@ -385,117 +385,7 @@
 	<!-- Start Solar Panel  Team  Section -->
 	<!--==================================================-->
 
-	<!--==================================================-->
-	<!-- Start Solar Panel  Call Do Action  Section -->
-	<!--==================================================-->
-	 <div class="call-do-action-section style-two">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="single-video text-center">
-						<div class="video-icon wow animate__slideInUp">
-							<a class="video-vemo-icon venobox vbox-item" data-vbtype="youtube" data-autoplay="true" href="https://youtu.be/BS4TUd7FJSg"><i class="bi bi-play"></i></a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	 </div>
-	<!--==================================================-->
-	<!-- End Solar Panel  Call Do Action  Section -->
-	<!--==================================================-->
 
-	<!--==================================================-->
-	<!-- Start Solar Panel  Choose Us  Section -->
-	<!--==================================================-->
-
-	 <div class="choose-us-section style-two">
-		<div class="container">
-			<div class="row choose">
-				<div class="col-lg-6 col-md-12">
-					<div class="section-title wow animate__slideInDown">
-						<div class="section-sub-title choose">
-							<h4>Why Choose Us</h4>
-						</div>
-						<div class="section-main-title choose">
-							<h2>Best Solution For Your</h2>
-						</div>
-					</div>
-					<div class="choose-us-discription">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-					</div>
-					<div class="choose-us-content">
-						<div class="choose-us-thumb wow animate__zoomIn">
-							<img src="{{ asset('frontend/assets/images/resource/choose-thumb.png')}}" alt="">
-						</div>
-						<div class="choose-us-list">
-							<ul>
-								<li><i class="bi bi-check"></i> Best of Perfect Shine</li>
-								<li><i class="bi bi-check"></i> Geeen Energy Green Natural</li>
-								<li><i class="bi bi-check"></i> Solar Energy fou All The Coming Days</li>
-							</ul>
-						</div>
-						<div class="choose-us-info">
-							<div class="solar-btn choose">
-								<a href="#">Get A Quout <i class="bi bi-arrow-right"></i></a>
-							</div>
-							<div class="choose-us-icon">
-								<i class="bi bi-telephone-plus"></i>
-							</div>
-							<div class="choose-us-phone">
-								<h5>Emergency Call <span>+123956(6565)556-02</span></h5>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 col-md-12">
-					<div class="choose-contact-box wow animate__fadeOutDown">
-						<div class="choose-contact-title">
-							<h4>Make an Appointment</h4>
-						</div>
-						<form action="https://formspree.io/f/myyleorq" method="POST" id="it-form">
-							<div class="row">
-								<div class="col-lg-12">
-									<div class="form-box">
-										<input type="text" name="name" placeholder="Full Name *">
-										<i class="bi bi-person"></i>
-									</div>
-								</div>
-								<div class="col-lg-12">
-									<div class="form-box">
-										<input type="text" name="email" placeholder="Email Here *">
-										<i class="bi bi-envelope"></i>
-									</div>
-								</div>
-								<div class="col-lg-12">
-									<div class="form-box">
-										<input type="text" name="subejct" placeholder="Select Service *">
-										<i class="bi bi-pencil-square"></i>
-									</div>
-								</div>
-								<div class="col-lg-12 col-md-12">
-									<div class="form-box">
-										<textarea name="massage" id="massage" cols="30" rows="10" placeholder="Your Comment *"></textarea>
-										<i class="bi bi-chat-left-text-fill"></i>
-									</div>
-								</div>
-								<div class="col-lg-12 col-md-12">
-									<div class="form-box-button">
-										<button type="Submit">Appontment Now <i class="bi bi-arrow-right"></i></button>
-									</div>
-								</div>
-							</div>
-						</form>
-						<div id="status"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	 </div>
-
-	<!--==================================================-->
-	<!-- End Solar Panel  Choose Us  Section -->
-	<!--==================================================-->
 
 	
 	<!--==================================================-->
@@ -873,41 +763,56 @@
 	<!--==================================================--> 
 
 
-	<!--==================================================-->
-	<!-- Start Solar Panel  Subscribe  Section -->
-	<!--==================================================--> 
 
-	<div class="subscribe-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6 col-md-6">
-					<div class="section-title wow animate__slideInLeft">
-						<div class="section-main-title Subscribe">
-							<h2>Subscribe For The </h2>
-							<h2>Exclusive</h2>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 col-md-6">
-					<form action="https://formspree.io/f/myyleorq" method="POST" id="it-form">
-						<div class="form-box Subscribe wow animate__slideInRight">
-							<input type="text" name="email" placeholder="Your Email Address...">
-							<button type="submit" class="icons">
-								<i class="bi bi-send"></i>
-							</button>
-						</div>
-						<div class="checkbox-box">
-							<input type="checkbox" id="reviewcheck" name="reviewcheck">
-							<label for="reviewcheck"> I agree to the <a href="#">Privacy Policy</a></label>
-						</div>
-					</form>
-					<div id="status"></div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!--==================================================-->
-	<!-- End Solar Panel  Subscribe  Section -->
-	<!--==================================================--> 
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+	<script>
+		document.getElementById('appointment-form').addEventListener('submit', async function (event) {
+			event.preventDefault();
+
+			const form = event.currentTarget;
+			const submitButton = document.getElementById('appointment-submit');
+			const originalButtonContent = submitButton.innerHTML;
+
+			submitButton.disabled = true;
+			submitButton.textContent = 'Booking...';
+
+			try {
+				const response = await fetch(form.action, {
+					method: 'POST',
+					body: new FormData(form),
+					headers: {
+						'Accept': 'application/json',
+						'X-Requested-With': 'XMLHttpRequest'
+					}
+				});
+
+				const data = await response.json();
+
+				if (!response.ok) {
+					const validationMessage = data.errors
+						? Object.values(data.errors).flat().join('\n')
+						: (data.message || 'Please check the entered details and try again.');
+					throw new Error(validationMessage);
+				}
+
+				form.reset();
+				await Swal.fire({
+					icon: 'success',
+					title: 'Success!',
+					text: data.message,
+					confirmButtonText: 'OK'
+				});
+			} catch (error) {
+				Swal.fire({
+					icon: 'error',
+					title: 'Unable to book appointment',
+					text: error.message
+				});
+			} finally {
+				submitButton.disabled = false;
+				submitButton.innerHTML = originalButtonContent;
+			}
+		});
+	</script>
 
 @endsection

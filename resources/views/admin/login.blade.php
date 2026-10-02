@@ -91,7 +91,7 @@
                   </form>
 
                 </div>
-               <center> <p>Go to <a href="{{route('supplier_login')}}">Supplier</a> Panel</p></center>
+              
               </div>
 
               <div class="credits">
