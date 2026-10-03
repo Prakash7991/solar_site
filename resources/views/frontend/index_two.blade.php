@@ -76,9 +76,7 @@
 				<div class="col-lg-6 col-md-12">
 					<div class="about-thumb wow animate__zoomIn">
 						<img src="{{ asset('frontend/assets/images/about/about-thumb2.png')}}" alt="">
-						<div class="about-video-icon">
-							<a class="video-vemo-icon venobox vbox-item" data-vbtype="youtube" data-autoplay="true" href="https://youtu.be/BS4TUd7FJSg"><i class="bi bi-play"></i></a>
-						</div>
+					
 						<div class="about-counter-two style-two wow animate__slideInLeft">
 							<div class="about-number-two style-two">
 								<h4 class="counter">10</h4>

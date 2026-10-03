@@ -3,8 +3,20 @@
 
 <head>
 	<meta charset="UTF-8">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>SolerPanel-Solar & Renewable Energy HTML5 Template </title>
+	<title>@yield('seo_title', 'Sky Solar Renewable Energy Solutions | Solar Panel Installation')</title>
+
+	<meta name="description"
+		content="@yield('seo_description', 'Sky Solar Renewable Energy Solutions provides residential, commercial and rooftop solar panel installation, maintenance and renewable energy solutions.')">
+
+	<meta name="robots" content="index, follow">
+
+	<link rel="canonical" href="{{ url()->current() }}">
+
+	<meta property="og:type" content="website">
+	<meta property="og:site_name" content="Sky Solar Renewable Energy Solutions">
+	<meta property="og:title" content="@yield('seo_title', 'Sky Solar Renewable Energy Solutions')">
+	<meta property="og:description" content="@yield('seo_description', 'Professional rooftop and commercial solar energy solutions.')">
+	<meta property="og:url" content="{{ url()->current() }}">
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Favicon -->
