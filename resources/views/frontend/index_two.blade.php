@@ -8,8 +8,8 @@
 	<div class="slider-section style-two d-flex">
 		<div class="container">
 			<div class="row align-items-center mt-50">
-				<div class="col-lg-5"></div>
-				<div class="col-lg-7 col-md-12">
+				<div class="col-lg-6"></div>
+				<div class="col-lg-6 col-md-12">
 					<div class="slider-content style-two wow animate__slideInRight">
 						<h4> Sky Solar Renewable Energy Solutions Pvt Ltd</h4>
 						
@@ -300,8 +300,8 @@
 									<img src="{{ asset('frontend/assets/images/resource/testi-icon.png')}}" alt="">
 								</div>
 								<div class="testi-title">
-									<h4>Lahiru Kumara</h4>
-									<span>Designer</span>
+									<h4>Anil Kumar</h4>
+									
 								</div>
 								<div class="testi-discription">
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicin elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
@@ -513,26 +513,7 @@
 	<!--==================================================-->
 
 	<div class="call-back-section wow animate__slideInUp">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-3"></div>
-				<div class="col-lg-6 col-md-12">
-					<div class="call-back-content text-center">
-						<div class="call-back-numbar">
-							<h3>+91 97041 61945</h3>
-						</div>
-						<div class="call-back-discription">
-							<p>Perfectly simple & easy to distinguish free hour when power of choice is 
-								nothing prevents our being. Mistaken idea denouncing</p>
-						</div>
-						<div class="solar-btn call-back">
-							<a href="#">Get Call Back <i class="bi bi-arrow-right"></i></a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3"></div>
-			</div>
-		</div>
+		<img src="{{ asset('frontend/assets/images/resource/call-back-bg.jpg')}}" class="img-fluid"/>
 	</div>
 
 

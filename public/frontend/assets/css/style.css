@@ -581,9 +581,11 @@ a.handbag:before {
 }
 
 .slider-content.style-two {
-    background: #ffffff;
-    padding: 30px 60px 64px;
+    background: #3b8ad9 !important;
+    
+    padding: 15px 30px 34px;
     border-radius: 0px 0px 155px 0px;
+    
 }
 .slider-content.style-two h4 {
     color: #1c1632;
@@ -2576,7 +2578,7 @@ span.fill {
 /* testimonial section css */
 
 .testimonial-section {
-    padding: 0 0 114px;
+    padding: 0 0 24px;
 }
 
 .testi-item-box {
@@ -2585,7 +2587,7 @@ span.fill {
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0 5px 10px rgb(0 0 0 / 10%);
     padding: 44px 37px 40px;
-    border-top: 3px solid rgba(230,58,39,0.800);
+    border-top: 3px solid rgba(40, 55, 166, 0.8);
     position: relative;
     margin: 0 10px 3px;
 }
@@ -2674,10 +2676,7 @@ span.fill {
 ===================================================*/
 
 .call-back-section {
-    background: url(../images/resource/call-back-bg.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 100px 0 100px;
+    height: 650px;
 }
 
 .call-back-content {
@@ -2719,7 +2718,7 @@ span.fill {
 }
 
 .breatcome-title h1 {
-    color: #fff;
+    color: #2e5aca !important;
     font-size: 60px;
     font-weight: 700;
     margin-bottom: 19px;

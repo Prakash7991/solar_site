@@ -70,7 +70,7 @@ class SupplierController extends Controller
 
     public function Delete($id){
         $deleted = Contact::destroy($id);
-        return redirect()->route('admin_supplier')->with('success', 'Contact Deleted successfully');
+        return redirect()->route('admin_contact')->with('success', 'Contact Deleted successfully');
     }
 }
 

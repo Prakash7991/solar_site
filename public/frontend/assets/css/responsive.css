@@ -779,7 +779,11 @@
 
 
 }
-  
+@media (min-width: 1px) and (max-width: 450px) {
+    .slider-section .style-two{
+        background: none !important;
+    }
+}
 
 
 /* Tablet desktop :768px. */
@@ -799,10 +803,13 @@
         display: inline-block;
     }
 
+    
+
     .slider-section {
         height: 700px;
         display: block !important;
     }
+    
 
     .slider-content {
         padding: 142px 0 0;
