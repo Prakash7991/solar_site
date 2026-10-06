@@ -20,7 +20,7 @@
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Favicon -->
-	<link rel="icon" type="image/png" sizes="56x56" href="assets/images/fav-icon/icon.png">
+	<link rel="icon" type="image/png" sizes="56x56" href="{{ asset('frontend/assets/images/fav-icon/icon.png')}}">
 	<!-- bootstrap CSS -->
 	<link rel="stylesheet" href="{{ asset('frontend/assets/css/bootstrap.min.css') }}"  rel="stylesheet">
 	<!-- carousel CSS -->
