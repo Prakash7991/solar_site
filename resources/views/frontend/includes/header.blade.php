@@ -14,7 +14,7 @@
 				<div class="col-lg-6 col-md-6">
 					<div class="solar-top-menu">
 						<ul>
-							<li class="line"><a href="#"><i class="bi bi-geo-alt"></i> 12/7 new town, USA</a></li>
+							<li class="line"><a href="#"><i class="bi bi-geo-alt"></i> Nagaram, Rampaly Hyd</a></li>
 							<li><a href="#"><i class="bi bi-telephone"></i> +91 97041 61945</a></li>
 							<li><a href="#"><i class="bi bi-envelope"></i> info@ssres.in</a></li>
 						</ul>
