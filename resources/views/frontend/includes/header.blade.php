@@ -15,7 +15,7 @@
 					<div class="solar-top-menu">
 						<ul>
 							<li class="line"><a href="#"><i class="bi bi-geo-alt"></i> Nagaram, Rampaly Hyd</a></li>
-							<li><a href="#"><i class="bi bi-telephone"></i> +91 97041 61945</a></li>
+							<li><a href="#"><i class="bi bi-telephone"></i> +91 99633 58777 </a></li>
 							<li><a href="#"><i class="bi bi-envelope"></i> info@ssres.in</a></li>
 						</ul>
 					</div>

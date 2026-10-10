@@ -47,9 +47,8 @@
 						</div>
 						<div class="footer-wiget-contact-menu">
 							<ul>
-								<li>Valentin, Street Road 24, New York, 
-									USA - 67452</li>
-								<li>+91 97041 61945</li>
+								<li> Nagaram, Rampaly Hyd</li>
+								<li>+91 99633 58777</li>
 								<li><a href="#">info@ssres.in</a></li>
 							</ul>
 						</div>

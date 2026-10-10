@@ -64,7 +64,7 @@
 						</div>
 						<div class="contact-adress">
 							<h5>Call Us Today</h5>
-							<span>+91 97041 61945</span>
+							<span>+91 99633 58777</span>
 						</div>
 					</div>
 					<div class="contact-box-item">
