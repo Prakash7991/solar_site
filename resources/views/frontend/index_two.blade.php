@@ -228,7 +228,7 @@
 				</div>
 				<div class="col-lg-5 col-md-12 pl-0">
 					<div class="offer-thumb wow animate__slideInUp">
-						<img src="{{ asset('frontend/assets/images/resource/offer-thumb.png')}}" alt="">
+						<img src="{{ asset('frontend/assets/images/resource/offer-thumb.webp')}}" alt="">
 					</div>
 				</div>
 			</div>
