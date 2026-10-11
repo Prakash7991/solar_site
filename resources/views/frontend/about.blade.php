@@ -82,8 +82,7 @@
 							<div class="tabs_item" style="">
 								<div class="tabs-items-content">
 									<div class="about-content-discription">
-										<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-											laudantium, totam aperiam, eaquecy epsa abillo inventore veritatis architecto beatae</p>
+										<p>We provide professional rooftop solar installations, customized solar solutions, and end-to-end support to help you harness the power of the sun.</p>
 									</div>
 									<div class="row">
 										<div class="col-lg-6 col-md-6 col-sm-6 col-6">
@@ -114,25 +113,24 @@
 							<div class="tabs_item" style="display: none;">
 								<div class="tabs-items-content">
 									<div class="about-content-discription">
-										<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-											laudantium, totam aperiam, eaquecy epsa abillo inventore veritatis architecto beatae</p>
+										<p>We help transform abundant sunlight into clean electricity through efficient solar power systems designed to support energy savings and environmental sustainability.</p>
 									</div>
 									<div class="row">
 										<div class="col-lg-6 col-md-6 col-sm-6 col-6">
 											<div class="about-list">
 												<ul>
-													<li><i class="bi bi-chevron-double-right"></i> Best Insurance Agency</li>
-													<li><i class="bi bi-chevron-double-right"></i> Trusted & Experience</li>
-													<li><i class="bi bi-chevron-double-right"></i> Key Managerial Persons</li>
+													<li><i class="bi bi-chevron-double-right"></i> Residential Rooftop Solar Systems</li>
+													<li><i class="bi bi-chevron-double-right"></i> Commercial & Industrial Solar Solutions</li>
+													<li><i class="bi bi-chevron-double-right"></i> PM Surya Ghar: Muft Bijli Yojana Assistance</li>
 												</ul>
 											</div>
 										</div>
 										<div class="col-lg-6 col-md-6 col-sm-6 col-6">
 											<div class="about-list">
 												<ul>
-													<li><i class="bi bi-chevron-double-right"></i> Dedicated Support</li>
-													<li><i class="bi bi-chevron-double-right"></i> Board Composition</li>
-													<li><i class="bi bi-chevron-double-right"></i> Board Committees</li>
+													<li><i class="bi bi-chevron-double-right"></i> Solar Panel Installation & Maintenance</li>
+													<li><i class="bi bi-chevron-double-right"></i>Solar Inverters, Batteries & Accessories</li>
+													<li><i class="bi bi-chevron-double-right"></i> Solar Consultation and System Design</li>
 												</ul>
 											</div>
 										</div>
@@ -146,25 +144,25 @@
 							<div class="tabs_item" style="display: none;">
 								<div class="tabs-items-content">
 									<div class="about-content-discription">
-										<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-											laudantium, totam aperiam, eaquecy epsa abillo inventore veritatis architecto beatae</p>
+										<p>We envision a future where every home, business, and industry can access clean energy, reduce electricity costs, and contribute to a greener planet.</p>
 									</div>
 									<div class="row">
 										<div class="col-lg-6 col-md-6 col-sm-6 col-6">
 											<div class="about-list">
 												<ul>
-													<li><i class="bi bi-chevron-double-right"></i> Best Insurance Agency</li>
-													<li><i class="bi bi-chevron-double-right"></i> Trusted & Experience</li>
-													<li><i class="bi bi-chevron-double-right"></i> Key Managerial Persons</li>
+													<li><i class="bi bi-chevron-double-right"></i>Dedicated Solar Customer Support</li>
+													<li><i class="bi bi-chevron-double-right"></i>Ethical Business Practices and Transparency</li>
+													<li><i class="bi bi-chevron-double-right"></i>Promoting Clean and Green Energy</li>
+
 												</ul>
 											</div>
 										</div>
 										<div class="col-lg-6 col-md-6 col-sm-6 col-6">
 											<div class="about-list">
 												<ul>
-													<li><i class="bi bi-chevron-double-right"></i> Dedicated Support </li>
-													<li><i class="bi bi-chevron-double-right"></i> Board Composition</li>
-													<li><i class="bi bi-chevron-double-right"></i> Board Committees</li>
+														<li><i class="bi bi-chevron-double-right"></i>Reliable Solar Installation and Maintenance</li>
+														<li><i class="bi bi-chevron-double-right"></i>Affordable and Efficient Solar Solutions</li>
+														<li><i class="bi bi-chevron-double-right"></i>Building a Sustainable Energy Future</li>
 												</ul>
 											</div>
 										</div>
