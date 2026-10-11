@@ -44,11 +44,11 @@
 			<div class="row">
 				<div class="col-lg-6 col-md-12">
 				<div class="about-thumb">
-						<img src="assets/images/about/about-thumb.jpg" alt="">
+						<img src="{{ asset('frontend/assets/images/about/about-thumb.png')}}" alt=""/>
 						<div class="about-counter">
 							<div class="about-counter-text">
 								<div class="about-numbar">
-									<h4 class="counter">29</h4>
+									<h4 class="counter">10</h4>
 									<span>+</span>
 								</div>
 								<div class="about-text">
@@ -56,16 +56,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="about-counter-two d-flex align-items-center ">
-							<div class="about-counter-img">
-								<img src="assets/images/about/about-shape.png" alt="">
-							</div>
-							<div class="about-number-two">
-								<h4 class="counter">2900</h4>
-								<span>+</span>
-								<h5>Satisfied Clients</h5>
-							</div>
-						</div>
+						
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-12">
