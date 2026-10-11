@@ -78,6 +78,8 @@ Route::group(['prefix' => 'admin'], function () {
 //User Frontend
 Route::group(['prefix' => '/'], function () {
 
+    Route::view('/go-solar', 'frontend.go_solar')->name('go_solar');
+    Route::redirect('/go-dolar', '/go-solar', 301);
     Route::post('/appointment',[FrontIndex::class,'Insert'])->name('front_appointment_insert');
     Route::get('/',[FrontIndex::class,'Indextwo'])->name('front_home_two');
     Route::get('/about',[FrontIndex::class,'About'])->name('front_about');
