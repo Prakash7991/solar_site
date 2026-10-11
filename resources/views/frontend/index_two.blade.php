@@ -75,7 +75,7 @@
 			<div class="row">
 				<div class="col-lg-6 col-md-12">
 					<div class="about-thumb wow animate__zoomIn">
-						<img src="{{ asset('frontend/assets/images/about/about-thumb2.png')}}" alt="">
+						<img src="{{ asset('frontend/assets/images/about/about-thumb2.webp')}}" alt="">
 					
 						<div class="about-counter-two style-two wow animate__slideInLeft">
 							<div class="about-number-two style-two">
