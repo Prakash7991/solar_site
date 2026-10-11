@@ -143,7 +143,7 @@ Tags: alternative energy, company, eco, eco-friendly, ecology, environment, natu
 ===================================================*/
 
 .solar-header-section {
-    background: #ffffff;
+    background: #5795de;
     position: relative;
     z-index: 999;
     position: relative;
@@ -156,7 +156,7 @@ Tags: alternative energy, company, eco, eco-friendly, ecology, environment, natu
     width: 215%;
     top: 0%;
     left: -182%;
-    background: #dde5ea;
+    background: #9bc7dd;
     transform: skew(-30deg, 0deg);
     z-index: -1;
 }
