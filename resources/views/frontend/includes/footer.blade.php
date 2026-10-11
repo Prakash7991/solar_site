@@ -12,7 +12,7 @@
 							<a href="index.php"><img src="{{ asset('frontend/assets/images/resource/footer-logo.png')}}" alt=""></a>
 						</div>
 						<div class="footer-wiget-text">
-							<p>Sky Solar Renewable Energy Solutions PVT LTD</p>
+							<p>We provide professional rooftop solar installations, customized solar solutions, and end-to-end support to help you harness the power of the sun.</p>
 						</div>
 						<div class="footer-wiget-social">
 							<ul>
