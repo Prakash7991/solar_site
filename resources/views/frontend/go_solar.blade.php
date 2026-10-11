@@ -9,6 +9,7 @@
                     <img class="brand-logo" src="{{ asset('frontend/assets/images/logo.png') }}" alt="Sky Solar Renewable Energy Solutions Private Limited">
                     <p class="eyebrow">Powering a cleaner, greener tomorrow</p>
                     <h1 id="hero-title">Switch to <span>Clean &amp; Affordable</span> Solar Energy</h1>
+                     @include('frontend.includes.solar_cta')
                     <p class="hero__lead">Save on Electricity Bills <b>·</b> Increase Property Value <b>·</b> Support a Greener Tomorrow</p>
                     <div class="hero-points">
                         <div><span>▣</span><strong>Lower</strong><small>Electricity Bills</small></div>
@@ -16,7 +17,7 @@
                         <div><span>✓</span><strong>25 Years</strong><small>Warranty</small></div>
                         <div><span>●</span><strong>Clean &amp; Green</strong><small>Environment</small></div>
                     </div>
-                    @include('frontend.includes.solar_cta')
+                   
                 </div>
             </div>
         </div>
