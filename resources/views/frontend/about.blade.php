@@ -34,16 +34,21 @@
 	<!-- Start Solar Panel  About Section -->
 	<!--==================================================-->
 
+	
+	<!--==================================================-->
+	<!-- Start Solar Panel  About Section -->
+	<!--==================================================-->
+
 	<div class="about-section style-three">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-12 col-md-12">
+				<div class="col-lg-6 col-md-12">
 				<div class="about-thumb">
-						<!-- <img src="{{ asset('frontend/assets/images/about/about-thumb.jpg')}}" alt=""> -->
+						<img src="assets/images/about/about-thumb.jpg" alt="">
 						<div class="about-counter">
 							<div class="about-counter-text">
 								<div class="about-numbar">
-									<h4 class="counter">10</h4>
+									<h4 class="counter">29</h4>
 									<span>+</span>
 								</div>
 								<div class="about-text">
@@ -51,16 +56,16 @@
 								</div>
 							</div>
 						</div>
-						<!-- <div class="about-counter-two d-flex align-items-center ">
+						<div class="about-counter-two d-flex align-items-center ">
 							<div class="about-counter-img">
-								<img src="{{ asset('frontend/assets/images/about/about-shape.png')}}" alt="">
+								<img src="assets/images/about/about-shape.png" alt="">
 							</div>
 							<div class="about-number-two">
-								<h4 class="counter">10</h4>
+								<h4 class="counter">2900</h4>
 								<span>+</span>
 								<h5>Satisfied Clients</h5>
 							</div>
-						</div> -->
+						</div>
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-12">
@@ -69,7 +74,8 @@
 							<h4>Our Introductton</h4>
 						</div>
 						<div class="about-section-main-title">
-							<h2>Innovative Solar Solutions for a Greener Tomorrow</h2>
+							<h2>We're Developing Future
+								Solar Solutions </h2>
 						</div>
 					</div>
 					<!-- tab -->
@@ -183,6 +189,10 @@
 			</div>
 		</div>
 	</div>
+	<!--==================================================-->
+	<!-- End Solar Panel  About Section -->
+	<!--==================================================-->
+
 	<!--==================================================-->
 	<!-- End Solar Panel  About Section -->
 	<!--==================================================-->

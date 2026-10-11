@@ -124,9 +124,7 @@
 									<span class="fill my-class" data-percentage="59" style="background: rgb(22, 181, 151); width: 287.779px; transition: width 7s ease-in-out 0s;"></span>
 								</div>
 							</div>
-						   <div class="solar-btn about about2 wow animate__slideInUp">
-							<a href="#">Get A Quout <i class="bi bi-arrow-right"></i></a>
-						</div>
+						  
 					</div>
 				</div> 
 			</div>

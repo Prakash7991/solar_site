@@ -29,11 +29,11 @@
 						</div>
 						<div class="footer-wiget-menu">
 							<ul>
-								<li><a href="#">Contact us</a></li>
-								<li><a href="#">How it Works</a></li>
-								<li><a href="#"> Office Create</a></li>
-								<li><a href="#">Residential Explore</a></li>
-								<li><a href="#">Terms & Services</a></li>
+								<li><a href="{{ route('front_home_two') }}">Home</a></li>
+								<li><a href="{{ route('front_about') }}">About</a></li>
+								<li><a href="{{ route('front_service') }}"> Services</a></li>
+								<li><a href="{{route('front_project')}}">Blog</a></li>
+								<li><a href="{{route('front_contact')}}">Contact</a></li>
 							</ul>
 						</div>
 					</div>
