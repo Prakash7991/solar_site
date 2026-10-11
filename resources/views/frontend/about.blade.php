@@ -69,8 +69,7 @@
 							<h4>Our Introductton</h4>
 						</div>
 						<div class="about-section-main-title">
-							<h2>We're Developing Future
-								Solar Solutions </h2>
+							<h2>Innovative Solar Solutions for a Greener Tomorrow</h2>
 						</div>
 					</div>
 					<!-- tab -->

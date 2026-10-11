@@ -99,28 +99,27 @@
 						</div>
 					</div>		
 						<div class="about-content-discription wow animate__zoomIn">
-							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-								laudantium, totam aperiam, eaquecy epsa abillo inventore veritatis architecto beatae</p>
+							<p>At SKY SOLAR RENEWABLE ENERGY SOLUTIONS PVT LTD, we are committed to delivering clean, affordable, and sustainable solar energy solutions. Our mission is to help homes, businesses, and industries reduce electricity costs while building a greener future through reliable solar technology.</p>
 						</div>
 							<div class="process-ber-plugin wow animate__zoomIn">
 								<span class="process-bar">Business Success </span>
 								<div id="bar1" class="barfiller">
 									<div class="tipWrap" style="display: inline;">
-										<span class="tip" style="left: 68.802px; transition: left 7s ease-in-out 0s;">90%</span>
+										<span class="tip" style="left: 68.802px; transition: left 7s ease-in-out 0s;">60%</span>
 									</div>
 									<span class="fill" data-percentage="90" style="background: rgb(22, 181, 151); width: 305.798px; transition: width 7s ease-in-out 0s;"></span>
 								</div>  
-								<span class="process-bar">Install Solar Energy Panel</span>
+								<span class="process-bar">Solar Panel Installatoin</span>
 								<div id="bar2" class="barfiller">
 									<div class="tipWrap" style="display: inline;">
-										<span class="tip" style="left: 50.997px; transition: left 7s ease-in-out 0s;">69%</span>
+										<span class="tip" style="left: 50.997px; transition: left 7s ease-in-out 0s;">79%</span>
 									</div>
 									<span class="fill my-class" data-percentage="69" style="background: rgb(22, 181, 151); width: 287.779px; transition: width 7s ease-in-out 0s;"></span>
 								</div>
-								<span class="process-bar">Solar Production Energy</span>
+								<span class="process-bar">Solar Production </span>
 								<div id="bar3" class="barfiller">
 									<div class="tipWrap" style="display: inline;">
-										<span class="tip" style="left: 50.997px; transition: left 7s ease-in-out 0s;">69%</span>
+										<span class="tip" style="left: 50.997px; transition: left 7s ease-in-out 0s;">80%</span>
 									</div>
 									<span class="fill my-class" data-percentage="59" style="background: rgb(22, 181, 151); width: 287.779px; transition: width 7s ease-in-out 0s;"></span>
 								</div>
@@ -283,10 +282,10 @@
 				<div class="col-lg-12">
 					<div class="section-title text-center wow animate__zoomIn">
 						<div class="section-sub-title">
-							<h4>Our Testimonials</h4>
+							<h4> Testimonials</h4>
 						</div>
 						<div class="section-main-title ">
-							<h2>Words From Our Customer</h2>
+							<h2> Customer Reviews</h2>
 						</div>
 					</div>
 				</div>
@@ -304,7 +303,7 @@
 									
 								</div>
 								<div class="testi-discription">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicin elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
+									<p>SKY SOLAR provided excellent service with quality products and professional installation. The team was very supportive, explained everything clearly, and helped us choose the right solar solution for our home.</p>
 								</div>
 								<div class="testi-icon">
 									<i class="bi bi-star-fill"></i>
@@ -323,11 +322,11 @@
 									<img src="{{ asset('frontend/assets/images/resource/testi-icon.png')}}" alt="">
 								</div>
 								<div class="testi-title">
-									<h4>Curtis Campher</h4>
-									<span>Designer</span>
+									<h4>Prakash </h4>
+									
 								</div>
 								<div class="testi-discription">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicin elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
+									<p>SKY SOLAR delivered excellent service with a professional team and quality solar products. The installation process was smooth, the staff was helpful, and the overall experience exceeded our expectations.</p>
 								</div>
 								<div class="testi-icon">
 									<i class="bi bi-star-fill"></i>
@@ -346,11 +345,11 @@
 									<img src="{{ asset('frontend/assets/images/resource/testi-icon.png')}}" alt="">
 								</div>
 								<div class="testi-title">
-									<h4>Barry McCarthy</h4>
-									<span>Designer</span>
+									<h4> Sunitha</h4>
+									
 								</div>
 								<div class="testi-discription">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicin elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
+									<p>I am very happy with SKY SOLAR and their reliable service. The team explained the benefits of solar energy clearly and provided a cost-effective solution for our home.</p>
 								</div>
 								<div class="testi-icon">
 									<i class="bi bi-star-fill"></i>
@@ -369,11 +368,11 @@
 									<img src="{{ asset('frontend/assets/images/resource/testi-icon.png')}}" alt="">
 								</div>
 								<div class="testi-title">
-									<h4>Lahiru Kumara</h4>
-									<span>Designer</span>
+									<h4>Laxman</h4>
+									
 								</div>
 								<div class="testi-discription">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicin elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
+									<p>I am very happy with SKY SOLAR and their reliable service. The team explained the benefits of solar energy clearly and provided a cost-effective solution for our home.</p>
 								</div>
 								<div class="testi-icon">
 									<i class="bi bi-star-fill"></i>
@@ -392,11 +391,11 @@
 									<img src="{{ asset('frontend/assets/images/resource/testi-icon.png')}}" alt="">
 								</div>
 								<div class="testi-title">
-									<h4>Curtis Campher</h4>
-									<span>Designer</span>
+									<h4>Sunil</h4>
+									
 								</div>
 								<div class="testi-discription">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicin elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
+									<p>Choosing SKY SOLAR was a great decision for our family. Their team provided excellent guidance, quality installation, and friendly support throughout the entire solar installation process.</p>
 								</div>
 								<div class="testi-icon">
 									<i class="bi bi-star-fill"></i>
@@ -415,11 +414,11 @@
 									<img src="{{ asset('frontend/assets/images/resource/testi-icon.png')}}" alt="">
 								</div>
 								<div class="testi-title">
-									<h4>Barry McCarthy</h4>
-									<span>Designer</span>
+									<h4>Nikhil</h4>
+									
 								</div>
 								<div class="testi-discription">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicin elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
+									<p>SKY SOLAR made our solar installation simple and hassle-free. Their professional team provided excellent guidance, quality products, and dependable service. We are happy with their overall support.</p>
 								</div>
 								<div class="testi-icon">
 									<i class="bi bi-star-fill"></i>
@@ -438,11 +437,11 @@
 									<img src="{{ asset('frontend/assets/images/resource/testi-icon.png')}}" alt="">
 								</div>
 								<div class="testi-title">
-									<h4>Lahiru Kumara</h4>
-									<span>Designer</span>
+									<h4>Sanjay</h4>
+									
 								</div>
 								<div class="testi-discription">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicin elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
+									<p>I appreciate SKY SOLAR for their commitment to quality and customer satisfaction. The team was friendly, knowledgeable, and helpful in making our transition to clean solar energy easy.</p>
 								</div>
 								<div class="testi-icon">
 									<i class="bi bi-star-fill"></i>
@@ -461,11 +460,11 @@
 									<img src="{{ asset('frontend/assets/images/resource/testi-icon.png')}}" alt="">
 								</div>
 								<div class="testi-title">
-									<h4>Curtis Campher</h4>
-									<span>Designer</span>
+									<h4>Pavan</h4>
+								
 								</div>
 								<div class="testi-discription">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicin elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
+									<p>We had a great experience with SKY SOLAR and their dedicated team. They offered clear guidance, quality solar solutions, and responsive customer support throughout the entire process.</p>
 								</div>
 								<div class="testi-icon">
 									<i class="bi bi-star-fill"></i>
@@ -484,11 +483,11 @@
 									<img src="{{ asset('frontend/assets/images/resource/testi-icon.png')}}" alt="">
 								</div>
 								<div class="testi-title">
-									<h4>Barry McCarthy</h4>
-									<span>Designer</span>
+									<h4>Dileep</h4>
+									
 								</div>
 								<div class="testi-discription">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicin elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
+									<p>SKY SOLAR is a reliable choice for clean and renewable energy solutions. Their team made the process easy with professional assistance, clear communication, and a strong focus on customer satisfaction.</p>
 								</div>
 								<div class="testi-icon">
 									<i class="bi bi-star-fill"></i>

@@ -12,13 +12,11 @@
 							<a href="index.php"><img src="{{ asset('frontend/assets/images/resource/footer-logo.png')}}" alt=""></a>
 						</div>
 						<div class="footer-wiget-text">
-							<p>Feugiat a ligula rutrum luctus primis ultrice nteger congue magna at pretium purus a pretium ligula rutrum and luctus risus</p>
+							<p>Sky Solar Renewable Energy Solutions PVT LTD</p>
 						</div>
 						<div class="footer-wiget-social">
 							<ul>
-								<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+								<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>								
 								<li><a href="#"><i class="fab fa-instagram"></i></a></li>
 							</ul>
 						</div>

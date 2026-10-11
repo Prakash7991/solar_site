@@ -2674,10 +2674,12 @@ span.fill {
 /*==================================================
  <-- Solar Panel  Home Pages Two Call Back  Css-->
 ===================================================*/
-
-.call-back-section {
-    height: 650px;
+@media (min-width: 500px) and (max-width: 2000px) {
+    .call-back-section {
+      height: 650px;
+    }    
 }
+
 
 .call-back-content {
     background: #1c1632;
