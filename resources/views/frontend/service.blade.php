@@ -61,9 +61,8 @@
 								</div>
 								<div class="service-text">
 									<h4><a href="service-details.php">Solar Panels Services</a></h4>
-									<p>Suspendisse natoque elit in eget orci amet 
-										volutpat, est. Integer mauris feugiat</p>
-									<a href="#">Read More <i class="bi bi-arrow-up-right"></i></a>
+									<p>“Complete solar solutions for homes, businesses and industries with reliable installation, maintenance and energy-saving support.”</p>
+									
 								</div>
 							</div>
 						</div>
@@ -79,9 +78,8 @@
 								</div>
 								<div class="service-text">
 									<h4><a href="service-details.php">Roof Solar Panels</a></h4>
-									<p>Suspendisse natoque elit in eget orci amet 
-										volutpat, est. Integer mauris feugiat</p>
-									<a href="#">Read More <i class="bi bi-arrow-up-right"></i></a>
+									<p>Reliable solar solutions for homes and businesses, designed to save energy and reduce electricity costs.</p>
+							
 								</div>
 							</div>
 						</div>
@@ -97,9 +95,9 @@
 								</div>
 								<div class="service-text">
 									<h4><a href="service-details.php">Commercial Roofing</a></h4>
-									<p>Suspendisse natoque elit in eget orci amet 
-										volutpat, est. Integer mauris feugiat</p>
-									<a href="#">Read More <i class="bi bi-arrow-up-right"></i></a>
+									<p>Reliable commercial roofing solutions for businesses,
+built for durability, safety and long-term performance.</p>
+									
 								</div>
 							</div>
 						</div>
@@ -115,9 +113,8 @@
 								</div>
 								<div class="service-text">
 									<h4><a href="service-details.php">Roof Solar Panels</a></h4>
-									<p>Suspendisse natoque elit in eget orci amet 
-										volutpat, est. Integer mauris feugiat</p>
-									<a href="#">Read More <i class="bi bi-arrow-up-right"></i></a>
+									<p>“Complete solar solutions for homes, businesses and industries with reliable installation, maintenance and energy-saving support.”</p>
+									
 								</div>
 							</div>
 						</div>
@@ -133,9 +130,8 @@
 								</div>
 								<div class="service-text">
 									<h4><a href="service-details.php">Roof Solar Panels</a></h4>
-									<p>Suspendisse natoque elit in eget orci amet 
-										volutpat, est. Integer mauris feugiat</p>
-									<a href="#">Read More <i class="bi bi-arrow-up-right"></i></a>
+									<p>Reliable solar solutions for homes and businesses, designed to save energy and reduce electricity costs.</p>
+									
 								</div>
 							</div>
 						</div>
@@ -151,9 +147,8 @@
 								</div>
 								<div class="service-text">
 									<h4><a href="service-details.php">Commercial Roofing</a></h4>
-									<p>Suspendisse natoque elit in eget orci amet 
-										volutpat, est. Integer mauris feugiat</p>
-									<a href="#">Read More <i class="bi bi-arrow-up-right"></i></a>
+									<p>Reliable commercial roofing solutions for businesses, built for durability, safety and long-term performance.</p>
+									
 								</div>
 							</div>
 						</div>
