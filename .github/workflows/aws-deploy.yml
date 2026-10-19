@@ -1,0 +1,48 @@
+
+name: Deploy Solar to AWS EC2
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  id-token: write
+  contents: read
+
+concurrency:
+  group: solar-aws-production
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: arn:aws:iam::520692692347:role/SolarGitHubDeployRole
+          aws-region: ap-south-1
+
+      - name: Deploy Laravel through SSM
+        shell: bash
+        run: |
+          COMMAND_ID=$(aws ssm send-command \
+            --instance-ids "i-03f8719261e06d984" \
+            --document-name "AWS-RunShellScript" \
+            --parameters '{"commands":["/usr/local/bin/deploy-solar.sh"]}' \
+            --query "Command.CommandId" \
+            --output text)
+
+          echo "Deployment command: $COMMAND_ID"
+
+          aws ssm wait command-executed \
+            --command-id "$COMMAND_ID" \
+            --instance-id "i-03f8719261e06d984"
+
+          aws ssm get-command-invocation \
+            --command-id "$COMMAND_ID" \
+            --instance-id "i-03f8719261e06d984" \
+            --query '[Status,StandardOutputContent,StandardErrorContent]' \
+            --output text
